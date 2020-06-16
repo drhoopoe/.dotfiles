@@ -1,0 +1,41 @@
+### Noah's Xresources-regolith ###
+
+# workspace letters
+i3-wm.workspace.01.name "browser"
+i3-wm.workspace.02.name="ب"
+set_from_resource $ws3  i3-wm.workspace.03.name "ج"
+set_from_resource $ws4  i3-wm.workspace.04.name "د"
+set_from_resource $ws5  i3-wm.workspace.05.name "ه"
+set_from_resource $ws6  i3-wm.workspace.06.name "و"
+set_from_resource $ws7  i3-wm.workspace.07.name "ز"
+set_from_resource $ws8  i3-wm.workspace.08.name "خ"
+set_from_resource $ws9  i3-wm.workspace.09.name "ط"
+set_from_resource $ws10 i3-wm.workspace.10.name "ي"
+set_from_resource $ws11 i3-wm.workspace.11.name "ك"
+set_from_resource $ws12 i3-wm.workspace.12.name "ل"
+set_from_resource $ws13 i3-wm.workspace.13.name "م"
+set_from_resource $ws14 i3-wm.workspace.14.name "ن"
+set_from_resource $ws15 i3-wm.workspace.15.name "ص"
+set_from_resource $ws16 i3-wm.workspace.16.name "ع"
+set_from_resource $ws17 i3-wm.workspace.17.name "ف"
+set_from_resource $ws18 i3-wm.workspace.18.name "ض"
+set_from_resource $ws19 i3-wm.workspace.19.name "ق"
+
+# theme stuff
+gnome.gtk.theme:Qogir-dark
+gnome.icon.theme:Qogir-dark
+gnome.wm.theme:Qogir-dark
+gnome.wallpaper: /home/noah/Pictures/space egypt_crop.jpg
+
+
+#i3-wm.gaps stuff
+i3-wm.gaps.focus_follows_mouse: yes
+
+
+#i3 bar stuff
+i3-wm.bar.trayoutput: primary 
+i3-wm.bar.position: top
+
+
+
+
