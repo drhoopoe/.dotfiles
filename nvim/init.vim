@@ -29,6 +29,7 @@ digraph ;m 8212
 "vim-plug settings
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'chrisbra/Colorizer'
 "-----Markdown plugins
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'cespare/vim-toml', { 'for': 'markdown' }
