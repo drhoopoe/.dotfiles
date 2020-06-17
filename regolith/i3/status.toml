@@ -2,6 +2,9 @@ theme = "Qogir-dark"
 icons = "awesome"
 
 [[block]]
+block = "uptime"
+
+[[block]]
 block = "disk_space"
 path = "/"
 alias = ""
@@ -45,13 +48,21 @@ use_bits = false
 #format = "{layout}"
 
 [[block]]
+block = "toggle"
+text = "PIA"
+command_state = "piactl get connectionstate | grep --no-ignore-case 'Connected'"
+command_on = "piactl connect"
+command_off = "piactl disconnect"
+interval = 5
+
+[[block]]
 block = "time"
 interval = 60
 format = "%a %m/%d %R"
 
 [[block]]
 block = "maildir"
-interval = 60
+interval = 30
 inboxes = ["/home/noah/.local/share/mail/personal/INBOX", "/home/noah/.local/share/mail/work/INBOX"]
 threshold_warning = 1
 threshold_critical = 10
